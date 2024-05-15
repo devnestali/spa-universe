@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  z-index: 100;
+}
+
+body .main-content {
+  background: url(./assets/mountains-universe-1.png) no-repeat center;
+  height: 100vh;
+  width: 100%;
+}
+
+body .section-content-1 {
+  background: url(./assets/mountains-universe02.png) no-repeat center;
+  height: 100vh;
+  width: 100%;
+}
+body .section-content-2 {
+  background: url(./assets/mountains-universe-3.png) no-repeat center;
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  padding: 4rem 7.2rem;
+  display: flex;
+}
+
+nav img {
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
+nav .nav-section {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+nav .nav-section a {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #c4c4cc;
+  transition: color .5s;
+}
+
+nav .nav-section a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
